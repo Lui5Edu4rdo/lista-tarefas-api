@@ -1,0 +1,40 @@
+# Como executar o projeto em PHP-Laravel no laboratório 11
+
+Primeiro, clone o repositório para sua máquina:
+
+```sh
+git clone https://github.com/project-managment/lista-tarefas-api/
+```
+
+Antes de continuar, certifique-se que o computador tem `docker-compose` instalado:
+
+```sh
+docker-compose --version
+```
+
+Se o computador não tem o `docker-compose` instalado, utilize o script `install-docker-compose.sh`:
+
+```sh
+./install-docker-compose.sh
+```
+
+Feche e reabra seu terminal, e execute novamente:
+
+```sh
+docker-compose --version
+```
+
+Pronto! Agora que você tem `docker-compose` instalado no computador, realize o deploy da aplicação pela primeira vez:
+
+```sh
+./deploy.sh
+```
+Depois que terminar, se não ocorrer nenhum erro, você já pode ver que a aplicação funcionando:
+
+```sh
+docker-compose up
+```
+
+
+
+
